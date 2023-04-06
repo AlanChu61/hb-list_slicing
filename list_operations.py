@@ -64,7 +64,7 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[0:3]
 
 
 def last_five(input_list):
@@ -103,7 +103,7 @@ def inner_four(input_list):
 
     """
 
-    return input_list[3:7]
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
@@ -119,7 +119,7 @@ def inner_four_end(input_list):
 
     """
 
-    return input_list[-3:-7:-1]
+    return input_list[-6:-2:1]
 
 
 def replace_head(input_list):
@@ -166,7 +166,7 @@ def backwards(input_list):
     ['May', 'Apr', 'Mar', 'Feb', 'Jan']
 
     """
-    input_list[::-1]
+    return input_list[::-1]
 
 
 def every_other(input_list):
@@ -178,7 +178,7 @@ def every_other(input_list):
     ['Jan', 'Mar', 'May']
 
     """
-    return input_list[0:, 2]
+    return input_list[::2]
 
 
 def delete_third_and_seventh(input_list):
